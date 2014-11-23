@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05/11/2014, 02:05:30
+    Author     : H
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: arial;
+    font-size: 12pt;
+}
+#pagina{
+    width: 1366px;
+    margin: auto;
+    text-align: justify;
+}
+#telinha{
+    width: 500px;
+    height: 150px;
+    margin-left: -250px; /* metade da largura */
+    margin-top: -75px; /* metade da altura */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+#logotipo{
+    width: 150px;
+    height: auto;
+    margin-left: -75px; /* metade da largura */
+    margin-top: auto;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    text-align: center;
+}
+        #caixa1 { 
+	position: absolute;
+	top: 0%; 
+	left: 4%;
+	width: 90%; 
+	height: 200px;
+	background-color: #00BFFF;
+	color: white;
+	z-index: 100; 
+	border-width: 10px;
+	border-color: black; 
+	
+	}
+	
+	#caixa2 { 
+	position: absolute;
+	top: 200px; 
+	left: 4%;
+	width: 14%; 
+	height: 100%;
+	background-color: #FF6347;
+	color: red;
+	z-index: 200;
+	border-width: 10px;
+	border-color: orange; 
+	}
+	#caixa3 { 
+	position: absolute;
+	top: 200px; 
+	left: 18%;
+	width: 76%; 
+	height: 100%;
+	background-color: #BEBEBE;
+	color: red;
+	z-index: 200;
+	border-width: 10px;
+	border-color: orange; 
+	}
