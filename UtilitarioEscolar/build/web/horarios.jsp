@@ -1,33 +1,33 @@
-<%-- 
-    Document   : horarios
-    Created on : 17/11/2014, 13:49:19
-    Author     : H
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Página Inicial</title>
-        <link rel="stylesheet" type="text/css" href="basico.css"/>
+        <title>Meus horários - UE</title>
+        <link rel="stylesheet" type="text/css" href="formatacao.css"/>
     </head>
     <body>
         <div class="caixa1">
-            BANNER
-            <!-- <img src = "" height="200px" width="100%">-->
-            <a href="cadastro.jsp"><img src="Cadastro.png" width="7%" onmouseover="this.src = 'Cadastro2.png'" onmouseout="this.src = 'Cadastro.png'" /></a><br/>
+            <img src="banner.png" height="100%" width="100%">            
         </div>
         <div class="caixa2">
-            <a href="index.jsp"><img src="inicio.png" width="100%" onmouseover="this.src = 'inicio2.png'" onmouseout="this.src = 'inicio.png'" /></a><br/>
-            <a href="login.jsp"><img src="login.png"width="100%" onmouseover="this.src = 'login2.png'" onmouseout="this.src = 'login.png'"/></a><br/>
-            <a href="notas.jsp"><img src="notas.png"width="100%"onmouseover="this.src = 'notas2.png'" onmouseout="this.src = 'notas.png'"/></a> <br/>
-            <a href="horarios.jsp"><img src="horarios.png"width="100%"onmouseover="this.src = 'horarios2.png'" onmouseout="this.src = 'horarios.png'"/></a><br/>
-            <a href="lembretes.jsp"><img src="lembretes.png"width="100%"onmouseover="this.src = 'lembretes2.png'" onmouseout="this.src = 'lembretes.png'"/></a><br/>
+            <input class="butindex" type="button" value="Home" onclick="window.open('index.jsp');">
+            <input class="butindex" type="button" value="Login" onclick="window.open('login.jsp');">
+            <input class="butindex" type="button" value="Cadastrar" onclick="window.open('cadastro.jsp');">
         </div>
         <div class="caixa3">
+            <br/><br/>
             <table border="2px">
                 <tr>
+                    <td>---------</td>
+                    <td>Segunda-feira</td>
+                    <td>Terça-feira</td>
+                    <td>Quarta--feira</td>
+                    <td>Quinta-feira</td>
+                    <td>Sexta-feira</td>
+                </tr>
+                <tr>
+                    <td>1ºHorário</td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -35,6 +35,7 @@
                     <td></td>
                 </tr>
                 <tr>
+                    <td>2ºHorário</td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -42,6 +43,7 @@
                     <td></td>
                 </tr>
                 <tr>
+                    <td>3ºHorário</td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -49,6 +51,7 @@
                     <td></td>
                 </tr>
                 <tr>
+                    <td>4ºHorário</td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -56,6 +59,7 @@
                     <td></td>
                 </tr>
                 <tr>
+                    <td>5ºHorário</td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -63,13 +67,14 @@
                     <td></td>
                 </tr>
                 <tr>
+                    <td>6ºHorário</td>
                     <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
-            </table>            
+            </table> 
         </div>
     </body>
 </html>

@@ -17,7 +17,23 @@
             
         </div>
         <div class="caixa3">
-            <h1 class="h1titulo">Cadastro realizado com sucesso!</h1>
+             <br/><br/>
+            <form>
+                <table>
+                    <tr><td>
+                <label>Nome do lembrete:</label>
+                <input type="text"/> <br/>
+                <label>Descrição:</label> <br/>
+                <textarea rows="30" cols="120">                    
+                </textarea> 
+                <input type="submit">
+                        </td>
+                        <td>
+                            Aqui ficarão os lembretes já salvos
+                        </td>
+                    </tr>
+                </table>
+            </form>
         </div>
     </body>
 </html>

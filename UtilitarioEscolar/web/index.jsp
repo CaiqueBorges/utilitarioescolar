@@ -3,24 +3,22 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Página Inicial</title>
-        <link rel="stylesheet" type="text/css" href="basico.css"/>
+        <title>Utiliário Escolar - UE</title>
+        <link rel="stylesheet" type="text/css" href="formatacao.css"/>
     </head>
     <body>
         <div class="caixa1">
-            BANNER
-            <!-- <img src = "" height="200px" width="100%">-->
-            <a href="cadastro.jsp"><img src="Cadastro.png" width="7%" onmouseover="this.src = 'Cadastro2.png'" onmouseout="this.src = 'Cadastro.png'" /></a><br/>
+            <img src="banner.png" height="100%" width="100%">            
         </div>
         <div class="caixa2">
-            <a href="index.jsp"><img src="inicio.png" width="100%" onmouseover="this.src = 'inicio2.png'" onmouseout="this.src = 'inicio.png'" /></a><br/>
-            <a href="login.jsp"><img src="login.png"width="100%" onmouseover="this.src = 'login2.png'" onmouseout="this.src = 'login.png'"/></a><br/>
-            <a href="notas.jsp"><img src="notas.png"width="100%"onmouseover="this.src = 'notas2.png'" onmouseout="this.src = 'notas.png'"/></a> <br/>
-            <a href="horarios.jsp"><img src="horarios.png"width="100%"onmouseover="this.src = 'horarios2.png'" onmouseout="this.src = 'horarios.png'"/></a><br/>
-            <a href="lembretes.jsp"><img src="lembretes.png"width="100%"onmouseover="this.src = 'lembretes2.png'" onmouseout="this.src = 'lembretes.png'"/></a><br/>
+            <input class="butindex" type="button" value="Home" onclick="window.open('index.jsp');">
+            <input class="butindex" type="button" value="Login" onclick="window.open('login.jsp');">
+            <input class="butindex" type="button" value="Cadastrar" onclick="window.open('cadastro.jsp');">
+            
         </div>
         <div class="caixa3">
-            Aqui vai ter informações do projeto
+            <h1 class="h1titulo">Um pouco mais sobre nós...</h1>
+            <p>O projeto Utilitário Escolar tem como propósito disponibilizar uma ferramenta de fácil acesso que irá auxiliar o usuário, no caso um aluno, a controlar as suas atividades acadêmicas. Para isso, o usuário terá que se cadastrar no site da aplicação, assim, ao acessar o site terá a opção de realizar cadastro, criando uma conta que será de caráter individual, visto que as informações inseridas serão diferentes para cada um que for usufruir do sistema.</p>
         </div>
     </body>
 </html>

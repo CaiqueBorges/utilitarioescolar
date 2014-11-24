@@ -1,9 +1,3 @@
-<%-- 
-    Document   : login
-    Created on : 16/11/2014, 00:05:38
-    Author     : CLYP
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -14,18 +8,19 @@
     </head>
     <body> 
         <div id="pagina">            
-            <img id="logotipo" src="livro.png">
-            <form id="telinha" action="home.html">
-                <fieldset style="border-style: inset">
+            <img id="logotipo" src="logo.png" onclick="window.open('index.jsp');">
+            <form id="telinha" action="home.jsp" method="post">
+                <fieldset>
                     <legend align="center">Por favor, entre com suas informações de login nos campos abaixo:</legend>
-                    <label>Login:</label>
-                    <input type="text" name="login" size="12">           
-                    <label>Senha:</label>
-                    <input type="password" name="senha" size="12">                       
-                    <button type="submit">Entrar</button>
-                    <input type="button" value="Voltar" onClick="history.go(-1)">
+                    <br/>
+                    <label class="labellogin">E-mail:</label><br/>
+                    <input class="inputlogin" type="text" name="email"><br/><br/>
+                    <label class="labellogin">Senha:</label><br/>
+                    <input class="inputlogin" type="password" name="senha"><br/><br/>                    
+                    <button class="butlogin" type="submit">Entrar</button>
+                    <input class="butlogin" type="button" value="Sou novo" onclick="window.open('cadastro.jsp');">
                 </fieldset>
             </form>
         </div>
     </body>
-</html>
+</html
