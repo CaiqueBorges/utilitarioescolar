@@ -1,30 +1,22 @@
-<%-- 
-    Document   : notas
-    Created on : 17/11/2014, 01:21:15
-    Author     : CLYP
---%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Notas</title>
-        <link rel="stylesheet" type="text/css" href="basico.css"/>
+        <title>Utiliário Escolar - UE</title>
+        <link rel="stylesheet" type="text/css" href="formatacao.css"/>
     </head>
     <body>
         <div class="caixa1">
-            BANNER
-            <!-- <img src = "" height="200px" width="100%">-->
+            <img src="banner.png" height="100%" width="100%">            
         </div>
         <div class="caixa2">
-            <a href="index.jsp"><img src="inicio.png" width="100%" onmouseover="this.src = 'inicio2.png'" onmouseout="this.src = 'inicio.png'" /></a><br/>
-            <a href="login.jsp"><img src="login.png"width="100%" onmouseover="this.src = 'login2.png'" onmouseout="this.src = 'login.png'"/></a><br/>
-            <a href="notas.jsp"><img src="notas.png"width="100%"onmouseover="this.src = 'notas2.png'" onmouseout="this.src = 'notas.png'"/></a> <br/>
-            <a href="horarios.jsp"><img src="horarios.png"width="100%"onmouseover="this.src = 'horarios2.png'" onmouseout="this.src = 'horarios.png'"/></a><br/>
-            <a href="lembretes.jsp"><img src="lembretes.png"width="100%"onmouseover="this.src = 'lembretes2.png'" onmouseout="this.src = 'lembretes.png'"/></a><br/>
+            <input class="butindex" type="button" value="Home" onclick="window.open('index.jsp');">
+            <input class="butindex" type="button" value="Login" onclick="window.open('login.jsp');">
+            <input class="butindex" type="button" value="Cadastrar" onclick="window.open('cadastro.jsp');">            
         </div>
         <div class="caixa3">
-            <br/>
+            
             <label>Digite o nome da disciplina:</label>
             <input type=“text” id="disciplina"/><br/><br/>
             <label>Escolha a divisão de suas notas:</label>
@@ -59,7 +51,6 @@
             <label>Média:</label>
             <input type=“text” id="media"/><br/><br/>
             <input type=“submit” value="Calcular"/>
-
-        </div>        
+        </div>
     </body>
 </html>

@@ -18,7 +18,7 @@
                     <label class="labellogin">Senha:</label><br/>
                     <input class="inputlogin" type="password" name="senha"><br/><br/>                    
                     <button class="butlogin" type="submit">Entrar</button>
-                    <input class="butlogin" type="button" value="Sou novo" onclick="window.open('cadastro.jsp');">
+                    <input class="butlogin" type="button" value="Sou novo" onclick="window.open('cadastro.jsp','_parent');">
                 </fieldset>
             </form>
         </div>

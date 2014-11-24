@@ -66,6 +66,7 @@ fieldset{
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 2%;
+    padding-top: 2%;
     line-height: 175%
 }
 .caixa4 { 
@@ -81,7 +82,8 @@ fieldset{
     text-align: justify;
     margin: 0px;
     padding: 2% 2% 2% 2%;
-    line-height: 175%
+    line-height: 175%;
+    font-weight: bold;
 }
 .h1titulo{
     text-align: center;
@@ -156,22 +158,84 @@ fieldset{
 
 /*CSS BOTÃO HOMEO*/
 .menuhome{    
-    width: 86%; 
+    width: 86%;
     height: auto;
-    text-align: center;
-    padding: 2% 2% 2% 2%;
 }
-.buthome{
+.buthome1{
     background-color: #3399ff;
-    color: #ffffff;
+    color: #000000;
     width: 350px;
-    height: 50px;
+    height: 100px;
     font-size: 14pt;
     display: inline-block;
-    border-radius: 5px;
-    
+    border-radius: 5px;    
 }
-.buthome:hover{
+.buthome1:hover{
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.30));
+    cursor: pointer;
+}
+.buthome2{
+    background-color: #ffcccc;
+    color: #000000;
+    width: 350px;
+    height: 100px;
+    font-size: 14pt;
+    display: inline-block;
+    border-radius: 5px;    
+}
+.buthome2:hover{
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.30));
+    cursor: pointer;
+}
+.buthome3{
+    background-color: #ccffcc;
+    color: #000000;
+    width: 350px;
+    height: 100px;
+    font-size: 14pt;
+    display: inline-block;
+    border-radius: 5px;    
+}
+.buthome3:hover{
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.30));
+    cursor: pointer;
+}
+.buthome4{
+    background-color: #ffff66;
+    color: #000000;
+    width: 350px;
+    height: 100px;
+    font-size: 14pt;
+    display: inline-block;
+    border-radius: 5px;    
+}
+.buthome4:hover{
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.30));
+    cursor: pointer;
+}
+.buthome5{
+    background-color: #cc99ff;
+    color: #000000;
+    width: 350px;
+    height: 100px;
+    font-size: 14pt;
+    display: inline-block;
+    border-radius: 5px;    
+}
+.buthome5:hover{
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.30));
+    cursor: pointer;
+}
+.buthome6{
+    background-color: #ff6666;
+    color: #000000;
+    width: 350px;
+    height: 100px;
+    font-size: 14pt;
+    display: inline-block;
+    border-radius: 5px;    
+}
+.buthome6:hover{
     background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.30));
     cursor: pointer;
 }

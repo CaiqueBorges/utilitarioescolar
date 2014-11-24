@@ -11,9 +11,9 @@
             <img src="banner.png" height="100%" width="100%">            
         </div>
         <div class="caixa2">
-            <input class="butindex" type="button" value="Home" onclick="window.open('index.jsp');">
-            <input class="butindex" type="button" value="Login" onclick="window.open('login.jsp');">
-            <input class="butindex" type="button" value="Cadastrar" onclick="window.open('cadastro.jsp');">
+            <input class="butindex" type="button" value="Home" onclick="window.open('index.jsp','_parent');">
+            <input class="butindex" type="button" value="Login" onclick="window.open('login.jsp','_parent');">
+            <input class="butindex" type="button" value="Cadastrar" onclick="window.open('cadastro.jsp','_parent');">
             
         </div>
         <div class="caixa3">
