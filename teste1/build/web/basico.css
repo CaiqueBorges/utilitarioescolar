@@ -1,0 +1,36 @@
+.caixa1 { 
+    position: absolute;
+    top: 0%; 
+    left: 4%;
+    width: 90%; 
+    height: 200px;
+    background-color: #00BFFF;
+    color: white;
+    z-index: 200; 
+    border-width: 10px;
+    border-color: black;
+}
+.caixa2 { 
+    position: absolute;
+    top: 200px; 
+    left: 4%;
+    width: 14%; 
+    height: 100%;
+    background-color: #FF6347;
+    color: red;
+    z-index: 200;
+    border-width: 10px;
+    border-color: orange; 
+}
+.caixa3 { 
+    position: absolute;
+    top: 150px; 
+    left: 18%;
+    width: 76%; 
+    height: 100%;
+    background-color: #BEBEBE;
+    color: red;
+    z-index: 100;
+    border-width: 10px;
+    border-color: orange;    
+}
